@@ -7,6 +7,8 @@ import AboutUs from "../pages/AboutUs";
 import GetInvolved from "../pages/GetInvolved.js";
 import Donate from "../pages/Donate.js";
 import Contact from "../pages/Contact.js";
+import MobileMenu from "./MobileMenu.js";
+
 
 export default function Layout() {
     return (
@@ -21,6 +23,7 @@ export default function Layout() {
                 <Route exact path="/getinvolved" element={<GetInvolved/>}/>
                 <Route exact path="/donate" element={<Donate/>}/>
                 <Route exact path="/contact" element={<Contact/>}/>
+                <Route exact path="/mobilemenu" element ={<MobileMenu/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </div>

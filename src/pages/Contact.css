@@ -1,4 +1,27 @@
 #contact {
     color:#f1592b;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#contactdiv {
+    display: flex;
+    justify-content:space-around;
+    background-color: #f1592b;
+    color:#ffffff;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+@media all and (max-width: 800px) {
+    #contactdiv {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 620px ) {
+    #contactdiv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
