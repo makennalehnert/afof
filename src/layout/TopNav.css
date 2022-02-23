@@ -47,7 +47,7 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-li {
+.nav li {
     transition: transform 0.5s ease-in;
 }
 
@@ -55,7 +55,7 @@ a:hover {
     color:#ec8160;
 }
 
-li:hover {
+.nav li:hover {
     transform:translateY(-3px);
 }
 

@@ -1,4 +1,41 @@
 #about {
     color:#f1592b;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about p {
+    text-indent: 20px;
+}
+
+.lefty {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.lefty img {
+    width: 70%;
+    border: solid 3px;
+    box-shadow: 0px 1px 4px 2px #f1592b;
+}
+
+.righty {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media all and (max-width:780px){
+    #about {
+        flex-direction: column;
+    }
 }
