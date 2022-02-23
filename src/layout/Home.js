@@ -9,9 +9,9 @@ export default function Home() {
         <div className="home">
             <h1>Angels for Orphans Foundation</h1>
             <div className="images">
-                <img src={Afof2} alt="afof2" width= "350px" height="260px" id="left"/>
+                <img src={Afof2} alt="afof2" width= "300px" height="225px" id="left"/>
                 <img src={Afof3} alt="afof3" width= "500px" height="370px"/>
-                <img src={Afof4} alt="afof4" width= "350px" height="260px" id="right"/>
+                <img src={Afof4} alt="afof4" width= "300px" height="225px" id="right"/>
             </div>
         </div>
     )
