@@ -1,0 +1,15 @@
+.wholesite {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+    padding-bottom: 2rem;
+}
+
+.footerfix {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem; 
+}

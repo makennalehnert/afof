@@ -8,6 +8,8 @@ import GetInvolved from "../pages/GetInvolved.js";
 import Donate from "../pages/Donate.js";
 import Contact from "../pages/Contact.js";
 import MobileMenu from "./MobileMenu.js";
+import Footer from "../layout/Footer.js";
+import "./Layout.css";
 
 
 export default function Layout() {
@@ -16,7 +18,7 @@ export default function Layout() {
         <div>
             <TopNav/>
         </div>
-        <div>
+        <div className="content">
             <Routes>
                 <Route exact path="/" element={<Home/>} />
                 <Route exact path="/about" element={<AboutUs/>} />
@@ -26,6 +28,9 @@ export default function Layout() {
                 <Route exact path="/mobilemenu" element ={<MobileMenu/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
+        </div>
+        <div className="footerfix">
+        <Footer />
         </div>
         </div>
     )
