@@ -5,3 +5,36 @@
     flex-direction: column;
     align-items: center;
 }
+
+.images {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.images img {
+    border: solid 3px;
+    box-shadow: 0px 1px 4px 2px #f1592b;
+    transition: transform 0.75s ease-in-out;
+}
+
+.images img:hover {
+    transform:scale(1.4);
+}
+
+#left {
+    transition: transform 0.75s ease-in-out;
+}
+
+#left:hover {
+    transform: scale(1.7) translateX(150px);
+}
+
+#right {
+    transition: transform 0.75s ease-in-out;
+}
+
+#right:hover {
+    transform: scale(1.7) translateX(-150px);
+}

@@ -18,7 +18,9 @@ export default function Contact() {
                 </div>
                 <div className="each">
                 <h3>Address</h3>
-                <h6>Wakiso District, Uganda</h6>
+                <h6>Mubango Village, Ssentema  Parish, </h6>
+                <h6>Kakiri Subcounty, Busiro County, Wakiso District,</h6>
+                <h6>Central Region of Uganda, East Africa</h6>
                 </div>
             </div>
         </div>

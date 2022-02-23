@@ -11,6 +11,12 @@
     color:#ffffff;
     margin-right: 80px;
     margin-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.each {
+    flex:1
 }
 
 @media all and (max-width: 800px) {
