@@ -38,4 +38,10 @@
     #about {
         flex-direction: column;
     }
+
+    .obj{
+        padding-left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

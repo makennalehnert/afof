@@ -14,7 +14,7 @@ export default function AboutUs() {
             <h2>Vision</h2>
             <p>To restore great hope in the lives of orphans, needy children, needy youths, widows, single mothers, widows and people living with HIV/AIDS in Uganda.</p>
             <h2>Objectives</h2>
-            <ul>
+            <ul className="obj">
                 <li>To promote God’s love and good care to orphans, needy children, needy youths, widows, single mothers, HIV/AIDS victims to live an improved life.</li>
                 <li>To guide and empower widows, single mothers and needy youths to start small and big scale income generating activities to get food and income to self-sustain family needs.</li>
                 <li>Building social service centers for easy provision of quality and affordable services near the needy people like schools, health centers and vocational training centers.</li>
